@@ -1,0 +1,37 @@
+div.mySwiper {
+  position: relative;
+}
+div.mySwiper .swiper-button-next {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid #5888a6;
+  align-items: center;
+}
+div.mySwiper .swiper-button-next::after {
+  content: "→";
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  color: var(--text-primary);
+  font-weight: bold;
+}
+div.mySwiper .swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid #5888a6;
+  align-items: center;
+}
+div.mySwiper .swiper-button-prev::after {
+  content: "←";
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  color: var(--text-primary);
+  font-weight: bold;
+}
